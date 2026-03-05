@@ -142,3 +142,9 @@ REST_FRAMEWORK = {
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.onrender.com",
+    "http://localhost:3000",
+    "https://your-vercel-domain.vercel.app",
+]
+
