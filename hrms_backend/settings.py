@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-h)!#qv^93w4erxrxk#ap20rcokt5$ec*4ezr41^43y%*7!lm4_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 # Application definition
@@ -129,7 +129,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:8000",
     "https://localhost:3000",
-    "https://hrms-lite-backend.onrender.com",  
+    "https://hrms-lite-frontend.vercel.app",
+    "https://*.vercel.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -141,10 +142,4 @@ REST_FRAMEWORK = {
 }
 
 ALLOWED_HOSTS = ['*']
-
-CSRF_TRUSTED_ORIGINS = [
-    "https://*.onrender.com",
-    "http://localhost:3000",
-    "https://your-vercel-domain.vercel.app",
-]
 
