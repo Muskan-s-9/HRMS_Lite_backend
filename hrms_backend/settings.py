@@ -129,7 +129,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:8000",
     "https://localhost:3000",
-    "https://hrms-lite-frontend.vercel.app",
+    "https://hrms-lite-frontend-snowy.vercel.app",
+    "https://hrms-lite-frontend-snowy.vercel.app/"
     "https://*.vercel.app",
 ]
 
